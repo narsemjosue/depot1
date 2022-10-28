@@ -1,0 +1,86 @@
+h1,h2
+{
+	color: #7451eb;
+	text-decoration: none;
+	font-style: italic;
+	text-align: center;
+	border: 3px #7451eb inset;
+	border-radius: 15px;
+	box-shadow: 6px 6px 5px #7451eb;
+}
+a:hover
+{
+	color:green;
+}
+a:active
+{
+	color:rgb(19, 7, 18);
+	background-color: yellow;
+}
+a:visited
+{
+	color: blueviolet;
+}
+h1
+{
+	text-shadow: 4px 4px 6px #7451eb;
+}
+
+
+.nom{
+	color: #7451eb;
+	font-family:  'Arial','Shalimar', sans-serif;
+	float:center;
+}
+body
+{
+	background-image: url("b2.jpg") ;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	font-family: 'Shalimar';	
+	font-weight:bold;
+}
+ul
+{
+	font-size: 20px;
+}
+div
+{
+	border: 3px #7451eb solid;
+	padding: 12px;
+	border-radius: 5px;
+}
+.premier
+{
+	float: right;
+	width: 30%;
+
+}
+.deuxieme
+{
+	width: 60%;
+}
+p{
+	font-size: 1.8em;
+}
+h2{
+	font-size: 2em;
+}
+@media screen and (max-width:630px){
+	.premier
+{
+	/*float: right;
+	width: 25%;
+	height: 50%;*/
+	clear: both;
+
+}
+.deuxieme
+{
+	/* width: 50%;*/
+	clear: both;
+}
+	div+premier{
+		clear:both;
+	}
+}
